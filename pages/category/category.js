@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/category/category.js
 Page({
 
   /**
@@ -14,11 +14,6 @@ Page({
   onLoad(options) {
 
   },
-  myQuestion () {
-    wx.navigateTo({
-      url: "/pages/category/category?isFirst=0"
-    });
-  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -32,6 +27,12 @@ Page({
    */
   onShow() {
 
+  },
+
+  clickOver(t){
+    wx.reLaunch({
+        url: "/pages/index/index?category=" + t.category
+    })
   },
 
   /**

@@ -1,11 +1,37 @@
-// pages/index/index.js
+// pages/personal/personal.js
+var app = getApp();
+var e = [{
+  icon: "/images/icon_grade.png",
+  title: "我的成绩",
+  msg: "",
+  showRight: 1
+},{
+  icon: "/images/icon_center_tj.png",
+  title: "分享好友",
+  msg: "",
+  showRight: 1
+}, 
+{
+  icon: "/images/icon_center_msg.png",
+  title: "在线客服",
+  msg: "",
+  showRight: 1
+}, 
+{
+  icon: "/images/icon_center_download.png",
+  title: "关于我们",
+  msg: "",
+  showRight: 1
+}];
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    cellList: e,
+    userInfo: {},
+    is_login: true,
   },
 
   /**
@@ -14,12 +40,17 @@ Page({
   onLoad(options) {
 
   },
-  myQuestion () {
-    wx.navigateTo({
-      url: "/pages/category/category?isFirst=0"
-    });
+  login() {
+    this.setData({
+      is_login: !this.data.is_login
+    })
   },
-
+  getLogin: function(){
+    this.login()
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

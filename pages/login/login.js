@@ -1,11 +1,14 @@
-// pages/index/index.js
+// pages/login/login.js
+const defaultAvatarUrl = '/images/header.png';
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    avatarUrl: defaultAvatarUrl,
+    nickName: '',
   },
 
   /**
@@ -13,11 +16,6 @@ Page({
    */
   onLoad(options) {
 
-  },
-  myQuestion () {
-    wx.navigateTo({
-      url: "/pages/category/category?isFirst=0"
-    });
   },
 
   /**
