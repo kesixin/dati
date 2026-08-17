@@ -153,8 +153,6 @@ Page({
         }
       })
     }
-
-
   },
 
   onHide: function() {
