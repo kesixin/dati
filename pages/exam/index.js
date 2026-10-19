@@ -406,7 +406,6 @@ Page({
         finishNum: this.data.finishNum + 1
       })
     }
-
     if ((this.data.indexInd + 1) >= questionList.length) {
       this.handexam()
     }
