@@ -14,6 +14,27 @@
 ![QQ](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2023-01-16/fd7054c9016fcf2dbf3144881bdfec88.jpeg)
 
 
+---
+## 特别感谢 ❤️
+感谢 [序点算力](https://api.xudiansuanli.com/register?aff=28XRF9WC85YR) 赞助本项目！**【序点算力】🛡️ 企业级极速稳定，满血并发、专线直连不卡顿，满血、不掺水 。**
+
+<table align="center">
+  <tr>
+    <td align="center" width="120">
+      <a href="https://api.xudiansuanli.com/register?aff=28XRF9WC85YR"><img src="https://treasure.mambaxin.com/uploads/question/20261116/s_6afa624790178.png" alt="序点算力" height="32"></a><br>
+      <a href="https://api.xudiansuanli.com/register?aff=28XRF9WC85YR"><strong>序点算力</strong></a>
+    </td>
+    <td align="left">
+      感谢序点算力赞助本项目！序点算力，企业级极速稳定，满血并发、专线直连不卡顿，满血、不掺水。稳定、高性价比的一站式大模型聚合分发与中转枢纽。让接入更简单，让每一份算力物有所值。兼容标准 OpenAI 接口规范，沿用熟悉的 SDK 与工具，让现有应用轻松接入。面向多节点的智能路由与故障切换，减少单点依赖，让每一次请求更从容。<a href="https://api.xudiansuanli.com/register?aff=28XRF9WC85YR">立即前往</a>
+    </td>
+  </tr>
+</table>
+
+
+
+---
+
+
 ## 项目演示 📸
 
 为了帮助你快速了解功能和界面设计，我们准备了一些关键的演示：
